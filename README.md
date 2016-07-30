@@ -1,4 +1,3 @@
-# DumpFrameworks
 DumpFrameworks.pl
 
 class-dump+dumpframeworks.pl
@@ -15,6 +14,8 @@ Ethans-MacBook-Air:~ Ethan$
  3.修改dumpframeworks路径地址为所需的路径
 dump_frameworks('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks',
                 'Frameworks');
+                
+                
 dump_frameworks('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/PrivateFrameworks',
                 'PrivateFrameworks');
 
